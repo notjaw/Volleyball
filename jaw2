@@ -3,7 +3,7 @@ local UI1 = library:CreateWindow("Gravity for 4.4(jaw#8611)")
 
 local HighJump = UI1:Button("HighJump(press Y)", function() 
 game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
-if key == "y" then workspace.Gravity = 42
+if key == "y" then workspace.Gravity = 44
 end
 end)
 end)
